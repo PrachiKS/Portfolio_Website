@@ -1,1 +1,7 @@
 @import "tailwindcss";
+/* Hero section background */
+.hero-bg {
+  background-image: url('./Assets/Bg-image.avif');
+  background-size: cover;
+  background-position: center;
+}
