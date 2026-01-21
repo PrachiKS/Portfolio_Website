@@ -21,7 +21,9 @@
     --spacing: 0.25rem;
     --breakpoint-md: 48rem;
     --breakpoint-xl: 80rem;
+    --container-3xl: 48rem;
     --container-4xl: 56rem;
+    --container-7xl: 80rem;
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
@@ -245,14 +247,14 @@
   .w-full {
     width: 100%;
   }
+  .max-w-3xl {
+    max-width: var(--container-3xl);
+  }
   .max-w-4xl {
     max-width: var(--container-4xl);
   }
-  .max-w-screen-md {
-    max-width: var(--breakpoint-md);
-  }
-  .max-w-screen-xl {
-    max-width: var(--breakpoint-xl);
+  .max-w-7xl {
+    max-width: var(--container-7xl);
   }
   .list-inside {
     list-style-position: inside;
